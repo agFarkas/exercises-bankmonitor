@@ -66,14 +66,14 @@ public class TransactionTest {
     }
 
     @Test
-    void test_updateDataWithNull() {
+    void test_updateDataWithEmptyData() {
         var transaction = new Transaction("{ \"reference\": \"foo\", \"amount\": 100}");
 
         assertNotNull(transaction.getTimestamp());
         assertEquals("foo", transaction.getReference());
         assertEquals(100, transaction.getAmount());
 
-        String newData = null;
+        String newData = "";
         transaction.setData(newData);
 
         assertEquals("", transaction.getReference());
