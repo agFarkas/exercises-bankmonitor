@@ -1,1 +1,3 @@
+bankmonitor\service\TransactionServiceTest.class
+bankmonitor\converter\TransactionDtoConverterTest.class
 bankmonitor\model\TransactionTest.class

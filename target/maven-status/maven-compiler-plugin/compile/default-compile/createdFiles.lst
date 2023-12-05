@@ -1,4 +1,13 @@
+generated\locations\model\TransactionDto.class
+bankmonitor\controller\TransactionController.class
+bankmonitor\json\JsonObject.class
+bankmonitor\converter\AbstractConverter.class
+generated\locations\api\ApiUtil.class
+bankmonitor\converter\TransactionDtoConverter.class
+bankmonitor\exception\handler\InternalExceptionHandler.class
+bankmonitor\exception\NoEntityFoundException.class
 bankmonitor\model\Transaction.class
 bankmonitor\TransactionApplication.class
-bankmonitor\controller\TransactionController.class
+generated\locations\api\TransactionsApi.class
+bankmonitor\service\TransactionService.class
 bankmonitor\repository\TransactionRepository.class
