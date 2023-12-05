@@ -1,0 +1,4 @@
+bankmonitor\model\Transaction.class
+bankmonitor\TransactionApplication.class
+bankmonitor\controller\TransactionController.class
+bankmonitor\repository\TransactionRepository.class
